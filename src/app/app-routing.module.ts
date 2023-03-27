@@ -1,9 +1,11 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, } from '@angular/router';
+import { RouterModule, Routes, } from '@angular/router';
 
-
+const routes: Routes = [
+  // { path: 'slider', loadChildren: () => import('./slider/slider.module').then(m => m.SliderModule) }
+];
 @NgModule({
-  imports: [RouterModule],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
