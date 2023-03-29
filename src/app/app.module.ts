@@ -10,6 +10,10 @@ import { SliderComponent } from './slider/slider.component';
 import { AppCardComponent } from './slider/card list/app-card/app-card.component';
 import { CoursesCategoriesComponent } from './courses-categories/courses-categories.component';
 import { PopularCoursesComponent } from './popular-courses/popular-courses.component';
+import { AboutComponent } from './header/about/about.component';
+import { CoursesComponent } from './header/courses/courses.component';
+import { ContactComponent } from './header/contact/contact.component';
+import { HomeeComponent } from './homee/homee.component';
 
 
 
@@ -23,6 +27,10 @@ import { PopularCoursesComponent } from './popular-courses/popular-courses.compo
     AppCardComponent,
     CoursesCategoriesComponent,
     PopularCoursesComponent,
+    AboutComponent,
+    CoursesComponent,
+    ContactComponent,
+    HomeeComponent,
 
 
     // AppCardComponent,
