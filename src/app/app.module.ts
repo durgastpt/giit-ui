@@ -42,7 +42,6 @@ import { HomeeComponent } from './homee/homee.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // SliderModule,
 
   ],
   providers: [],
