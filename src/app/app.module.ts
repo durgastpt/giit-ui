@@ -14,7 +14,7 @@ import { AboutComponent } from './header/about/about.component';
 import { CoursesComponent } from './header/courses/courses.component';
 import { ContactComponent } from './header/contact/contact.component';
 import { HomeeComponent } from './homee/homee.component';
-
+import { HttpClientModule} from "@angular/common/http"
 
 
 @NgModule({
@@ -42,6 +42,7 @@ import { HomeeComponent } from './homee/homee.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule
 
   ],
   providers: [],

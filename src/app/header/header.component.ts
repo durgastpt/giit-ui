@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { CoursesService } from '../service/courses.service';
 
 @Component({
   selector: 'app-header',
@@ -6,5 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent {
+  public clist:any;
+  constructor(cservice:CoursesService)
+  {
+    cservice.getAllCourses().subscribe(data=>{
+      this.clist=data;
+    })
+  }
 
 }

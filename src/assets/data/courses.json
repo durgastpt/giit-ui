@@ -1,24 +1,29 @@
 [{
     "icon": "assets/img/course-1.jpg",
-    "heading": "angular1",
+    "cid": "1",
+    "heading": "Angular",
     "description": "asdmnbasdmnskdaksdhaksjd hkajshd sakdhjk"
 },
 {
+    "cid": "2",
     "icon": "fa fa-user",
-    "heading": "angular2",
+    "heading": "JAVA",
     "description": "asdmnbasdmnskdaksdhaksjd hkajshd sakdhjk"
 },
 {
+    "cid": "3",
     "icon": "fa fa-user",
-    "heading": "angular3",
+    "heading": "Android",
     "description": "asdmnbasdmnskdaksdhaksjd hkajshd sakdhjk"
 },
 {
+    "cid": "4",
     "icon": "fa fa-user",
-    "heading": "angular4",
+    "heading": "Node Js",
     "description": "asdmnbasdmnskdaksdhaksjd hkajshd sakdhjk"
 },
 {
+    "cid": "5",
     "icon": "fa fa-user",
     "heading": "angular4",
     "description": "asdmnbasdmnskdaksdhaksjd hkajshd sakdhjk"

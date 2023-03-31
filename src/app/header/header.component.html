@@ -15,14 +15,14 @@
 
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Courses</a>
-                <div class="dropdown-menu fade-down m-0">
-                    <a href="team.html" class="dropdown-item">ANGULAR</a>
+                <div class="dropdown-menu fade-down m-0" >
+                    <!-- <a href="team.html" class="dropdown-item">ANGULAR</a>
                     <a href="team.html" class="dropdown-item">REACT JS</a>
                     <a href="team.html" class="dropdown-item">C/C++</a>
                     <a href="team.html" class="dropdown-item">PHP</a>
                     <a href="team.html" class="dropdown-item">JAVA</a>
-                    <a href="testimonial.html" class="dropdown-item">PGDCA</a>
-                    <a href="404.html" class="dropdown-item">DCA</a>
+                    <a href="testimonial.html" class="dropdown-item">PGDCA</a> -->
+                    <a routerLink="['course',c.cid]" class="dropdown-item"  *ngFor="let c of clist">{{c.heading}}</a>
                 </div>
             </div>
             <!-- <a href="courses.html" class="nav-item nav-link">Pages</a> -->
