@@ -10,8 +10,7 @@ const routes: Routes = [
   { path: '', component: HomeeComponent },
   { path: 'home', component: HomeeComponent },
   { path: 'about', component: AboutComponent },
-  { path:'courses', component:CoursesComponent},
-
+  { path:'courses/:cid', component:CoursesComponent},
   { path: 'contact', component: ContactComponent },
   // { path: 'slider', loadChildren: () => import('./slider/slider.module').then(m => m.SliderModule) }
 ];
