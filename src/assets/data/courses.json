@@ -1,31 +1,29 @@
 [{
     "img": "assets/img/Angular_full_color_logo.svg.png",
     "cid": "1",
-    "heading": "ANGULAR",
-    "description": "Learn Angular 12 and build responsive, enterprise-strength applications that run smoothly on desktop and mobile devices with this Angular training course. Angular provides a robust framework that facilitates the development of richly interactive applications running on multiple platforms. Gain experience building components, creating directives, modularizing applications, and building template-driven forms.  "
+    "heading": "TECHNOLOGIES (UI/UX)",
+    "title":"Angular",
+    "description": "Learn Angular and build responsive, enterprise-strength applications that run smoothly on desktop and mobile devices.  "
+  
 },
 {
+    "img": "assets/img/javaimg.png",
     "cid": "2",
-    "icon": "fa fa-user",
-    "heading": "JAVA",
-    "description": "asdmnbasdmnskdaksdhaksjd hkajshd sakdhjk"
+    "heading": "LANGUAGES",
+    "title":"JAVA",
+    "description": "This course introduces computer programming using the JAVA programming language with object-oriented programming principles. "
 },
 {
     "cid": "3",
-    "icon": "fa fa-user",
-    "heading": "Android",
+    "img": "fa fa-user",
+    "heading": "MS-OFFICE",
     "description": "asdmnbasdmnskdaksdhaksjd hkajshd sakdhjk"
 },
 {
     "cid": "4",
-    "icon": "fa fa-user",
-    "heading": "Node Js",
-    "description": "asdmnbasdmnskdaksdhaksjd hkajshd sakdhjk"
-},
-{
-    "cid": "5",
-    "icon": "fa fa-user",
-    "heading": "angular4",
+    "img": "fa fa-user",
+    "heading": "OTHER COURSES",
     "description": "asdmnbasdmnskdaksdhaksjd hkajshd sakdhjk"
 }
+
 ]
