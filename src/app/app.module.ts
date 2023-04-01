@@ -14,7 +14,8 @@ import { AboutComponent } from './header/about/about.component';
 import { CoursesComponent } from './header/courses/courses.component';
 import { ContactComponent } from './header/contact/contact.component';
 import { HomeeComponent } from './homee/homee.component';
-import { HttpClientModule} from "@angular/common/http"
+import { HttpClientModule} from "@angular/common/http";
+import { PopularCardComponent } from './popular-courses/popular-card/popular-card.component'
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { HttpClientModule} from "@angular/common/http"
     CoursesComponent,
     ContactComponent,
     HomeeComponent,
+    PopularCardComponent,
 
 
     // AppCardComponent,
