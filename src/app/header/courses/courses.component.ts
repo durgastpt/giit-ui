@@ -13,8 +13,6 @@ export class CoursesComponent implements OnInit {
   constructor(private route: ActivatedRoute, private cservice: CoursesService) {
     // this.cid=route.snapshot.paramMap.get("cid");
 
-
-
   }
   ngOnInit(): void {
     this.route.params.subscribe((params: any) => {

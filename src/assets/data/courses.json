@@ -1,8 +1,8 @@
 [{
-    "icon": "assets/img/course-1.jpg",
+    "img": "assets/img/Angular_full_color_logo.svg.png",
     "cid": "1",
-    "heading": "Angular",
-    "description": "asdmnbasdmnskdaksdhaksjd hkajshd sakdhjk"
+    "heading": "ANGULAR",
+    "description": "Learn Angular 12 and build responsive, enterprise-strength applications that run smoothly on desktop and mobile devices with this Angular training course. Angular provides a robust framework that facilitates the development of richly interactive applications running on multiple platforms. Gain experience building components, creating directives, modularizing applications, and building template-driven forms.  "
 },
 {
     "cid": "2",
