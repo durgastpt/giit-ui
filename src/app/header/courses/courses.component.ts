@@ -8,7 +8,6 @@ import { CoursesService } from 'src/app/service/courses.service';
   styleUrls: ['./courses.component.css']
 })
 export class CoursesComponent implements OnInit {
-  
   private cid: any;
   public cdetail: any;
   constructor(private route: ActivatedRoute, private cservice: CoursesService) {
@@ -19,10 +18,10 @@ export class CoursesComponent implements OnInit {
     this.route.params.subscribe((params: any) => {
       //"product" is obtained from 'ProductResolver'
       this.cid = params.cid;
-
+      
       console.log(params.cid);
       this.cservice.getCoursesByCid(this.cid).then((data: any) => {
-        console.log(data);
+        console.log( "data", data);
         this.cdetail = data;
 
       }, (error) => {

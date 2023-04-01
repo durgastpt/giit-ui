@@ -10,7 +10,9 @@ export class HeaderComponent {
   public clist:any;
   constructor(cservice:CoursesService)
   {
-    cservice.getAllCourses().subscribe(data=>{
+    cservice.getAllCategory().subscribe(data=>{
+      console.log("cat=",data);
+      
       this.clist=data;
     })
   }

@@ -1,28 +1,31 @@
 [{
-    "img": "assets/img/Angular_full_color_logo.svg.png",
     "cid": "1",
-    "heading": "TECHNOLOGIES (UI/UX)",
-    "title":"Angular",
+    "cgid": "1",
+    "img": "assets/img/Angular_full_color_logo.svg.png",
+    "heading": "java",
     "description": "Learn Angular and build responsive, enterprise-strength applications that run smoothly on desktop and mobile devices.  "
   
 },
+
 {
-    "img": "assets/img/javaimg.png",
     "cid": "2",
-    "heading": "LANGUAGES",
-    "title":"JAVA",
+    "cgid": "1",
+    "img": "assets/img/javaimg.png",
+    "heading": "angular",
     "description": "This course introduces computer programming using the JAVA programming language with object-oriented programming principles. "
 },
 {
     "cid": "3",
+    "cgid": "2",
     "img": "fa fa-user",
     "heading": "MS-OFFICE",
     "description": "asdmnbasdmnskdaksdhaksjd hkajshd sakdhjk"
 },
 {
     "cid": "4",
+    "cgid": "2",
     "img": "fa fa-user",
-    "heading": "OTHER COURSES",
+    "heading": "PGDCA",
     "description": "asdmnbasdmnskdaksdhaksjd hkajshd sakdhjk"
 }
 

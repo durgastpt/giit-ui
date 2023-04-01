@@ -1,4 +1,4 @@
-<h1 class="p-2">{{cdetail.heading}}</h1>
+<!-- <h1 class="p-2">{{cdetail.heading}}</h1> -->
 <!-- 
 <div class="container">
 
@@ -14,16 +14,16 @@
 <div class="container-xxl py-5">
   <div class="container">
     <div class="row g-4">
-      <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
-<div class="service-item text-center pt-3">
-  <div class="p-4">
-      <!-- <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i> -->
-      <img src="{{cdetail.img}}" width="50" height="50"><br>
-      <h5 class="mb-3">{{cdetail.title}}</h5>
-      <p>{{cdetail.description}}</p>
+      <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s"  *ngFor="let c of cdetail">
+        <div class="service-item text-center pt-3">
+          <div class="p-4">
+            <!-- <i class="fa fa-3x fa-graduation-cap text-primary mb-4"></i> -->
+            <img src="{{c.img}}" width="50" height="50"><br>
+            <h5 class="mb-3">{{c.heading}}</h5>
+            <p>{{c.description}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-</div>
-</div>
-</div>
-</div>
 </div>
